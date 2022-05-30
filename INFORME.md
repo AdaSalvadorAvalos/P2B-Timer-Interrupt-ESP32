@@ -22,16 +22,16 @@ void IRAM_ATTR onTimer() { IRAM_ATTR=  hará que use la memoria RAM interna (IRA
  
 }
  
-void setup() {
+ void setup() {
  
-  Serial.begin(115200);
+   Serial.begin(115200);
  
-  timer = timerBegin(0, 80, true); 
-  timerAttachInterrupt(timer, &onTimer, true);
-  timerAlarmWrite(timer, 1000000, true); 
-  timerAlarmEnable(timer); 
- 
-}// timer = timerBegin(0, 80, true)
+   timer = timerBegin(0, 80, true); 
+   timerAttachInterrupt(timer, &onTimer, true);
+   timerAlarmWrite(timer, 1000000, true); 
+   timerAlarmEnable(timer); 
+ }
+// timer = timerBegin(0, 80, true)
  // 0=el timer  que usamos ESP32 tiene 4 (0,1,2,3), 80= es el divisor, el reloj principal de ESP32 es de 80MHz, 
   //por lo que tendremos T=1/(80MHz/80)=1ms que son 1000000 tics por 1 segundo.
   //y si es true= es que el timer contará.
