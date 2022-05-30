@@ -4,7 +4,7 @@ MATERIALES:
 Objetivo: interrupciones usando el timer.
 
 Comentario y explicación del código:
-
+```
 #include <Arduino.h>
 //cuantas interrupciones han ocurrido
 volatile int interruptCounter;
@@ -59,5 +59,5 @@ void loop() { //bucle que usaremos
   }
   //incrementa el contador con el numero toal de interrupciones que ocurren y lo imprime por un puero serie.
 }
-
+```
 //salidas explicadas en el video
