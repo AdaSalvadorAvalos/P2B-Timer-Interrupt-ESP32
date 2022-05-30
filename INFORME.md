@@ -30,6 +30,7 @@ void IRAM_ATTR onTimer() { IRAM_ATTR=  hará que use la memoria RAM interna (IRA
    timerAttachInterrupt(timer, &onTimer, true);
    timerAlarmWrite(timer, 1000000, true); 
    timerAlarmEnable(timer); 
+   
  }
 // timer = timerBegin(0, 80, true)
  // 0=el timer  que usamos ESP32 tiene 4 (0,1,2,3), 80= es el divisor, el reloj principal de ESP32 es de 80MHz, 
