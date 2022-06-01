@@ -4,7 +4,7 @@
 - ESP32
 
 ## Presentación:
-interrupciones usando el timer.
+Interrupciones usando el timer.
 
 ## Explicación del código:
 ```
