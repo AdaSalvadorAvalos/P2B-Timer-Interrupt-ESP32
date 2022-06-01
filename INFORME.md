@@ -1,9 +1,12 @@
-MATERIALES:
-·ESP32
+# Práctica 2: ejercicio B
 
-Objetivo: interrupciones usando el timer.
+## MATERIALES:
+- ESP32
 
-Comentario y explicación del código:
+## Presentación:
+interrupciones usando el timer.
+
+## Explicación del código:
 ```
 #include <Arduino.h>
 //cuantas interrupciones han ocurrido
@@ -55,4 +58,4 @@ void loop() { //bucle que usaremos
   //incrementa el contador con el numero total de interrupciones que ocurren y lo imprime por un puero serie.
 }
 ```
-//salidas explicadas en el video
+Salidas explicadas en el vídeo.
