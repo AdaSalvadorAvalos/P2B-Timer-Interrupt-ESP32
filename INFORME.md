@@ -6,7 +6,7 @@
 ## Presentación:
 Interrupciones usando el timer.
 
-## Explicación del código:
+## Explicación del código (con comentarios que explican el funcionamiento línea a línea):
 ```
 #include <Arduino.h>
 //cuantas interrupciones han ocurrido
