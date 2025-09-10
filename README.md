@@ -112,7 +112,7 @@ hw_timer_t * timer = NULL;
 //variable para sincronizar el loop y el ISR
 portMUX_TYPE timerMux = portMUX_INITIALIZER_UNLOCKED;
  
-void IRAM_ATTR onTimer() { IRAM_ATTR=  hará que use la memoria RAM interna (IRAM) del ESP32
+void IRAM_ATTR onTimer() { // IRAM_ATTR=  hará que use la memoria RAM interna (IRAM) del ESP32
 //El código que queremos ejecutar es una rutina de servicio de interrupción (ISR) en este caso le llamamos OnTimer
   portENTER_CRITICAL_ISR(&timerMux); //dejará las interrupciones deshabilitadas globalmente.
   interruptCounter++;
