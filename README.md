@@ -150,7 +150,7 @@ void loop() { //bucle que usaremos
     Serial.println(totalInterruptCounter);
  
   }
-  //incrementa el contador con el numero total de interrupciones que ocurren y lo imprime por un puero serie.
+  //incrementa el contador con el numero total de interrupciones que ocurren y lo imprime por un puerto serie.
 }
 ```
 ## Cómo Ejecutar
