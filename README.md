@@ -93,10 +93,8 @@ void loop() {
 ### Resources
 - **Video Demonstration in Spanish:** [Watch video](assets/practica2Bvideo.mp4)
 - **ESP32 Documentation:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)  
-- **ESP32 Timer API Documentation:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/timers.html)  
-- **Arduino Timer Interrupt Reference:** [Arduino TimerInterrupt](https://www.arduino.cc/reference/en/language/functions/advanced-io/attachinterrupt/)  
-- **ESP32 Hardware Timer Tutorial:** [ESP32 Timer Tutorial](https://randomnerdtutorials.com/esp32-hardware-timer-arduino/)  
-
+- **ESP32 Timer API Documentation:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/timer.html)  
+- **Arduino Timer Interrupt Reference:** [Arduino TimerInterrupt](https://docs.arduino.cc/libraries/timerinterrupt/)  
 
 # Práctica 2-B: Interrupción por Timer en ESP32 (Versión en Español)
 
@@ -188,6 +186,5 @@ void loop() { //bucle que usaremos
 ### Recursos
 - **Video demostrativo en español:** [Ver video](assets/practica2Bvideo.mp4)
 - **Documentación del ESP32:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)  
-- **Documentación de temporizadores en ESP32:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/timers.html)  
-- **Referencia de interrupciones por timer en Arduino:** [Arduino TimerInterrupt](https://www.arduino.cc/reference/en/language/functions/advanced-io/attachinterrupt/)  
-- **Tutorial de temporizador en ESP32:** [ESP32 Timer Tutorial](https://randomnerdtutorials.com/esp32-hardware-timer-arduino/)  
+- **Documentación de temporizadores en ESP32:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/timer.html)  
+- **Referencia de interrupciones por timer en Arduino:** [Arduino TimerInterrupt](https://docs.arduino.cc/libraries/timerinterrupt/)  
