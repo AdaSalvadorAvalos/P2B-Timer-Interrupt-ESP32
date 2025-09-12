@@ -90,6 +90,13 @@ void loop() {
    - Open the Serial Monitor at **115200 baud**
    - Watch the interrupt counter increment every second
 
+### Resources
+- **Video Demonstration in Spanish:** [Watch video](assets/practica2Bvideo.mp4)
+- **ESP32 Documentation:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)  
+- **ESP32 Timer API Documentation:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/timers.html)  
+- **Arduino Timer Interrupt Reference:** [Arduino TimerInterrupt](https://www.arduino.cc/reference/en/language/functions/advanced-io/attachinterrupt/)  
+- **ESP32 Hardware Timer Tutorial:** [ESP32 Timer Tutorial](https://randomnerdtutorials.com/esp32-hardware-timer-arduino/)  
+
 
 # Práctica 2-B: Interrupción por Timer en ESP32 (Versión en Español)
 
@@ -179,4 +186,8 @@ void loop() { //bucle que usaremos
    - Observa cómo se incrementa el contador de interrupciones cada segundo
 
 ### Recursos
-- Video explicativo en español sobre el funcionamiento del timer y las interrupciones: [Ver video](assets/practica2Bvideo.mp4)
+- **Video demostrativo en español:** [Ver video](assets/practica2Bvideo.mp4)
+- **Documentación del ESP32:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)  
+- **Documentación de temporizadores en ESP32:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/timers.html)  
+- **Referencia de interrupciones por timer en Arduino:** [Arduino TimerInterrupt](https://www.arduino.cc/reference/en/language/functions/advanced-io/attachinterrupt/)  
+- **Tutorial de temporizador en ESP32:** [ESP32 Timer Tutorial](https://randomnerdtutorials.com/esp32-hardware-timer-arduino/)  
