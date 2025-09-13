@@ -105,7 +105,7 @@ void loop() {
 En esta práctica, para el curso de Procesadores Digitales, aprendemos a utilizar interrupciones por timer en el ESP32. Las interrupciones por timer permiten que el código se ejecute a intervalos precisos, independientemente del bucle principal.
 
 
-## Explicación del código (con comentarios línea a línea):
+## Explicación del código (con comentarios línea a línea):
 
 ```cpp
 #include <Arduino.h>
@@ -188,4 +188,5 @@ void loop() { //bucle que usaremos
 - **Documentación del ESP32:** [Espressif ESP32](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)  
 - **Documentación de temporizadores en ESP32:** [ESP32 Timers](https://docs.espressif.com/projects/esp-idf/en/v4.3/esp32/api-reference/peripherals/timer.html)  
 - **Referencia de interrupciones por timer en Arduino:** [Arduino TimerInterrupt](https://docs.arduino.cc/libraries/timerinterrupt/)  
+
 
